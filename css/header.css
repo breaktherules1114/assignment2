@@ -1,0 +1,62 @@
+header {
+    font-family: 'Quicksand', sans-serif;
+    padding: 10px 0;
+    background-color: #000000dc;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 3%;
+
+}
+.nav-option-for-user{
+    display: flex;
+    align-items: center;
+}
+.nav-option-for-user a {
+    line-height: 40px;
+    font-size: 35px;
+    padding: 10px 15px;
+    margin: 0 5px;
+    color: #ffffff;
+    display: flex;
+    text-decoration: none;
+}
+.nav-option-for-user a:hover{
+    background-color: rgb(139, 8, 12);
+    transition-duration: 0.5s;
+}
+.nav-item{
+    font-size: 25px;
+    padding-left: 5px;
+}
+.homepage{
+    text-decoration: none;
+}
+.homepage h1{
+    font-weight: bold;
+    color: #ffffff;
+    padding: 10px 15px;
+}
+.homepage h1:hover{
+    background-color: rgb(139, 8, 12);
+    transition-duration: 0.5s;
+}
+.nav-section{
+    display: flex;
+    align-items: center;
+}
+.nav-section-item{
+    font-size: 25px;
+    text-decoration: none;
+    color: white;
+    padding: 10px 15px;
+    margin: 0 5px;
+}
+.nav-section-item:hover{
+    background-color: rgb(139, 8, 12);
+    transition-duration: 0.5s;
+}

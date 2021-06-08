@@ -1,0 +1,23 @@
+.footer{
+    margin-top: 90px;
+    background-color: #000;
+    text-align: center;
+}
+.footer-content{
+    padding: 50px 0;
+}
+.footer-headline{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    color: rgb(220,41,50);
+    font-weight: bold;
+}
+.credit-card-list{
+    padding: 20px 0;
+    font-size: 65px;
+    color: white;
+}
+.footer-notice{
+    font-family: 'Ubuntu', sans-serif;
+    color: gray;
+}

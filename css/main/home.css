@@ -1,0 +1,38 @@
+
+.home-background{
+    width: 100%;
+    position: relative;
+}
+.home-content{
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.home-content-welcome{
+    font-family: 'Dancing Script', cursive;
+    font-size: 35px;
+    color: rgb(220,41,50);
+    padding-bottom: 20px;
+    text-shadow: 0 0 3px rgb(70, 70, 70);
+}
+.home-content-name{
+    font-family: 'Lobster', cursive;
+    color: rgb(220,41,50) ;
+    font-size: 80px;
+    padding-bottom: 10px;
+    text-shadow: 0 0 5px rgb(70, 70, 70);
+}
+.home-content-birth{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    color: white;
+    padding-bottom: 10px;
+}
+.home-content-thanks{
+    font-size: 30px;
+    color: white;
+    font-family: 'Mate SC', serif;
+}

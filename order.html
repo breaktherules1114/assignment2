@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bruno's PiZzA</title>
+    <link rel="stylesheet" href="./css/app.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lobster&family=Mate+SC&family=Ubuntu:ital@1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header class="order-header">
+        <my-navbar></my-navbar>
+    </header>
+    <main>
+        <img class="register-background" src="./img/homepage background.jpg" alt="#">
+        <div class="order-form">
+            <img src="./img/register-form.png" alt="#" class="order-form-background">
+            <div class="order-form-main-content">
+                <div class="delivery-or-pickup">
+                    <p class="title">Delivery or Pickup</p>
+                    <div class="option">
+                        <div class="option-delivery">
+                            <p>Delivery</p>
+                            <input type="radio" name="delivery-pickup" id="delivery" onclick="Delivery()">
+                        </div>
+                        <div class="option-pickup">
+                            <p>Pickup</p>
+                            <input type="radio" name="delivery-pickup" id="pickup" onclick="Pickup()">
+                        </div>
+                    </div>
+                    <input type="text" name="delivery-address" id="delivery-address" placeholder="Delivery address">
+                </div>
+                <div class="billing-address">
+                    <p>Billing address</p>
+                    <input type="text" name="billing-address" id="billing-address" placeholder="Billing address">
+                    <input type="submit" value="Same as delivery address" onclick="Submit()" id="submit">
+                </div>
+                <div class="contact-number">
+                    <p>Contact number</p>
+                    <input type="text" name="contact-number" id="contact-number" placeholder="Contact number">
+                </div>
+                <div class="email-receipt">
+                    <p>Email for receipt</p>
+                    <input type="email" name="email-receipt" id="email-receipt" placeholder="Email for receipt">
+                </div>
+                <div class="payment">
+                    <p class="title">Pay on pickup or online</p>
+                    <div class="option">
+                        <div class="payment-pickup">
+                            <p>Pickup</p>
+                            <input type="radio" name="payment" id="pickup" onclick="PickupPayment()">
+                        </div>
+                        <div class="payment-online">
+                            <p>Online</p>
+                            <input type="radio" name="payment" id="online" onclick="OnlinePayment()">
+                        </div>
+                    </div>
+                    <div class="creditcard-info" id="creditcard-info">
+                        <p class="title">Credit card information</p>
+                        <div class="card-list">
+                            <div class="visa">
+                                <i class="fab fa-cc-visa"></i>
+                                <input type="radio" name="credit-card" id="visa" onclick="Visa()">
+                            </div>
+                            <div class="mastercard">
+                                <i class="fab fa-cc-mastercard"></i>
+                                <input type="radio" name="credit-card" id="mastercard" onclick="MasterCard()">
+                            </div>
+                            <div class="american-express">
+                                <i class="fab fa-cc-amex"></i>
+                                <input type="radio" name="credit-card" id="american-express" onclick="AmericanExpress()">
+                            </div>
+                        </div>
+                        <input type="text" name="credit-card-number" id="visa-number" placeholder="Card Number" maxlength="16">
+                        <input type="text" name="credit-card-number" id="mastercard-number" placeholder="Card Number" maxlength="16" >
+                        <input type="text" name="credit-card-number" id="american-express-number" placeholder="Card Number" maxlength="15" onclick="AmericanExpress()">
+                    </div>    
+                </div>
+            </div>
+            
+        </div>
+    </main>
+
+    <script src="./js/app.js" type="module"></script>
+</body>
+</html>

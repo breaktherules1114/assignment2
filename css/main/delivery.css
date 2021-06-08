@@ -1,0 +1,25 @@
+.delivery{
+    background-color: #e7e7e7;
+    text-align: center;
+    padding: 100px 600px 100px 600px;
+}
+.delivery-header{
+    color: rgb(220,41,50);
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+}
+.delivery-content{
+    padding-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    color: gray;
+}
+.delivery-content-left{
+    font-family: 'Roboto', sans-serif;
+}
+.delivery-content-right p{
+    font-family: 'Roboto', sans-serif;
+}
+.delivery-noti{
+    margin-top:20px;
+}

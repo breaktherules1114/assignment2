@@ -1,0 +1,33 @@
+.about{
+    position: relative;
+}
+.about-img{
+    width: 100%;
+    position: relative;
+}
+.about-content{
+    position: absolute;
+    top: 140px;
+    text-align: center;
+    margin: 0 400px;
+}
+.about-header-our-story{
+    color: rgb(220,41,50);
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+    
+    text-shadow: 0 0 3px rgb(70, 70, 70);
+}
+.about-header-behind{
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+.about-title{
+    margin-top: 30px;
+    color: white;
+    font-size: 18px;
+    font-family: 'Ubuntu', sans-serif;
+}

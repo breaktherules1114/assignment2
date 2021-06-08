@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bruno's PiZzA</title>
+    <link rel="stylesheet" href="./css/app.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lobster&family=Mate+SC&family=Ubuntu:ital@1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header class="register-header">
+        <my-navbar></my-navbar>
+    </header>
+    <main>
+        <img class="register-background" src="./img/homepage background.jpg" alt="#">
+        <div class="register-form">
+            <img src="./img/register-form.png" alt="#" class="register-form-background">
+            <div class="register-main-content">
+                <div class="main-content-top">
+                    <div class="username">
+                        <p class="username-title">Username</p>
+                        <input class="username-input" id="username" type="text" required placeholder="Enter your username">
+                        <p class="warning" id="username-warning">Please enter your Username</p>
+                    </div>
+                    <div class="phonenumber">
+                        <p class="phonenumber-title">Phone number </p>
+                        <input class="phonenumber-input" id="phonenumber"  type="text" required placeholder="Enter your phone number (10 characters)">
+                        <p class="warning" id="phonenumber-warning">Please enter a valid phone number</p>
+                    </div>
+                    <div class="email">
+                        <p class="email-title">Email address </p>
+                        <input class="email-input" id="email" type="email" required placeholder="Enter your email (include an @)">
+                        <p class="warning" id="email-warning">Please enter a valid email (include an @)</p>
+                    </div>
+                    <div class="password">
+                        <p class="password-title">Password</p>
+                        <input class="password-input" id="password"  type="password" name="password" required placeholder="Enter your password (at least 8 characters)">
+                        <p class="warning" id="password-warning">Please enter a valid password</p>
+                    </div>
+                    <div class="password-retype">
+                        <p class="password-retype-title">Confirm Password</p>
+                        <input class="password-retype-input" id="password-retype" type="password" required  name="password-retype" placeholder="Confirm your password">
+                        <p class="warning" id="password-retype-warning">Password does not match</p>
+                    </div>
+                </div>
+                <div class="create-account">
+                    <button class="create-account-btn" onclick="RegisterCheck()">
+                        Create account 
+                    </button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="./js/app.js" type="module"></script>
+</body>
+</html>

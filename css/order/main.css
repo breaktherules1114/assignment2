@@ -1,0 +1,114 @@
+ .order-header .nav-option-for-user .order{
+    background-color:rgb(220,41,50);
+}
+.order-form{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 45%;
+    padding: 50px 50px 50px 0;
+    background-color: #fff;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.order-form-background{
+    height:100%;
+    background-size: cover;
+    display: block;
+    max-width: 50%;
+}
+.order-form-main-content{
+    margin-left: 30px;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    width: 45%;
+}
+.order-form-main-content p {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    color: rgb(220,41,50);
+    font-size: 17px;
+}
+
+.option{
+    display: flex;
+    margin: 10px 0;
+}
+.option-delivery, .option-pickup{
+    padding: 10px 10px;
+    border: 0.5px solid rgb(31, 102, 184);
+    position: relative;
+    width: 150px;
+    border-radius: 5px;
+}
+.option-delivery input, .option-pickup input{
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    right: 5%;
+    width: 13px;
+}
+.option-delivery{
+    margin-right: 10px;
+}
+#delivery-address{
+    display: none;
+}
+.billing-address p, .contact-number p, .email-receipt p{
+    margin: 10px 0;
+}
+#submit{
+    margin-top: 5px;
+    width: 70%;
+    padding: 1% !important;
+    font-family: 'Ubuntu', sans-serif;
+    color: rgb(220,41,50);
+    display: none;
+}
+#submit:hover{
+    cursor: pointer;
+    color: white;
+    background-color: rgb(220,41,50);
+}
+
+.payment .title{
+    margin-top: 10px;
+}
+.payment-pickup, .payment-online{
+    padding: 10px 10px;
+    border: 0.5px solid rgb(31, 102, 184);
+    position: relative;
+    width: 150px;
+    border-radius: 5px;
+}
+.payment-pickup input, .payment-online input{
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    right: 5%;
+    width: 13px;
+}
+.payment-pickup{
+    margin-right: 10px;
+}
+.creditcard-info{
+    border: 1px solid rgb(31, 102, 184);
+    border-radius: 5px;
+    display: none;
+}
+.card-list{
+    display: flex;
+    justify-content: space-around;
+}
+.card-list i{
+    font-size: 40px;
+    margin: 5px 0;
+}
+#visa-number, #mastercard-number, #american-express-number{
+    margin: 10px 2%;
+    width: 95%;
+    display: none;
+}

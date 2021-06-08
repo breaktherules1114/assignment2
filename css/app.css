@@ -1,0 +1,25 @@
+@import url("./grid.css");
+@import url("./header.css");
+@import url("./main/home.css");
+@import url("./main/menu.css");
+@import url("./main/delivery.css");
+@import url("./main/about.css");
+@import url("./main/contact.css");
+@import url("./footer.css");
+/*register*/
+@import url("./register/main.css");
+/*order*/
+@import url("./order/main.css");
+
+*{
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+    
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    transition: all 0.5s ease;     
+    background-color: #f2f4f8;  
+}
