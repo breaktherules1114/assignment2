@@ -20,7 +20,11 @@
     padding-bottom: 40px;
 }
 .hotline{
-    margin: 40px 270px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: center;
     padding: 40px 0;
     border-bottom: 1px solid rgb(220,41,50) ;
 }
