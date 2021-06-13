@@ -12,6 +12,9 @@ $template.innerHTML = `
                 <a href="#contact" class="nav-section-item">Contact</a>
             </div>
             <ul class="nav-option-for-user">
+                <a class="feature" href="./feature.html">
+                    <p class="nav-item">Feature</p>
+                </a>
                 <a class="register" href="./register.html">
                     <i class="far fa-registered"></i>
                     <p class="nav-item">Register</p>

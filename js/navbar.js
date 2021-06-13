@@ -5,6 +5,9 @@ $template.innerHTML = `
                 <a class="homepage" href="./index.html"><h1>Bruno's Pizza</h1></a>
             </div>
             <ul class="nav-option-for-user">
+                <a class="feature" href="./feature.html">
+                    <p class="nav-item">Feature</p>
+                </a>
                 <a class="register" href="./register.html">
                     <i class="far fa-registered"></i>
                     <p class="nav-item">Register</p>
